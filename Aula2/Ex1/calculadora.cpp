@@ -21,34 +21,28 @@ float Calculadora::getOperando2() { return operando2; }
 
 float Calculadora::getResultado() { return result; }
 
-int Calculadora::setOperando1(float op1) {
+void Calculadora::setOperando1(float op1) {
     operando1 = op1;
-    return 0;
 }
 
-int Calculadora::setOperando2(float op2) {
+void Calculadora::setOperando2(float op2) {
     operando2 = op2;
-    return 0;
 }
 
-int Calculadora::soma() {
+void Calculadora::soma() {
     result = (operando1 + operando2);
-    return 0;
 }
 
-int Calculadora::subtrai() {
+void Calculadora::subtrai() {
     result = (operando1 - operando2);
-    return 0;
 }
 
-int Calculadora::multiplica() {
+void Calculadora::multiplica() {
     result = (operando1 * operando2);
-    return 0;
 }
 
-int Calculadora::divide() {
+void Calculadora::divide() {
     result = (operando1 / operando2);
-    return 0;
 }
 
 

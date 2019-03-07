@@ -25,12 +25,12 @@ class Calculadora
         float getOperando1();
         float getOperando2();
         float getResultado();
-        int setOperando1(float);
-        int setOperando2(float);
-        int soma();
-        int subtrai();
-        int multiplica();
-        int divide();
+        void setOperando1(float);
+        void setOperando2(float);
+        void soma();
+        void subtrai();
+        void multiplica();
+        void divide();
 };
 
 
