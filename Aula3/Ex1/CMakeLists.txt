@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
-project(Ex2)
+project(Ex1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Ex2 main.cpp Media.cpp Media.h)
+add_executable(Ex1 main.cpp teste.cpp teste.h)
