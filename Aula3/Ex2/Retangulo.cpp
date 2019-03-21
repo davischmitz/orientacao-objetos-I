@@ -27,7 +27,6 @@ void Retangulo::setCoordinates(double px1, double py1, double px2, double py2, d
             y4 = py4;
         }
     }
-
 }
 
 bool Retangulo::validatePoint(double x, double y)
