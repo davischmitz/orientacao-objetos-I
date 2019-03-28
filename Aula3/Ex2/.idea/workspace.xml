@@ -12,17 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49a55638-5de8-4bff-be91-a4e849172fbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Aula4/Ex1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula4/Ex1/Motor.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula4/Ex1/Motor.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Aula2/Ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Ex1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Aula2/Ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Ex2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula2/Relogio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Relogio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Retangulo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Retangulo.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Retangulo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Retangulo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicio1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicio1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula4/Ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula4/Ex1/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +40,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Retangulo.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -57,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Retangulo.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -139,12 +131,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552518755757</updated>
       <workItem from="1552518757091" duration="6271000" />
-      <workItem from="1553119716294" duration="4145000" />
+      <workItem from="1553119716294" duration="4243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10416000" />
+    <option name="totallyTimeSpent" value="10514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1041" extended-state="6" />
@@ -185,17 +177,17 @@
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Retangulo.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Retangulo.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Retangulo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>

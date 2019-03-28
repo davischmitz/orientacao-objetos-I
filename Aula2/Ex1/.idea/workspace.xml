@@ -12,17 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d86e4f12-19e3-4b6c-a9f8-174b135ed427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Aula4/Ex1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula4/Ex1/Motor.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula4/Ex1/Motor.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Relogio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Relogio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Aula3/Ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex2/Retangulo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex2/Retangulo.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex2/Retangulo.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex2/Retangulo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula3/exercicio1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/exercicio1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula4/Ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula4/Ex1/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calculadora.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
@@ -58,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculadora.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -146,12 +138,12 @@
       <workItem from="1551897070299" duration="6053000" />
       <workItem from="1551915358327" duration="3299000" />
       <workItem from="1552514012251" duration="2301000" />
-      <workItem from="1553118896604" duration="3150000" />
+      <workItem from="1553118896604" duration="3242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14803000" />
+    <option name="totallyTimeSpent" value="14895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1041" extended-state="6" />
@@ -200,6 +192,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/calculadora.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/calculadora.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -207,13 +206,6 @@
           <folding>
             <element signature="e#67#86#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculadora.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
     </entry>
