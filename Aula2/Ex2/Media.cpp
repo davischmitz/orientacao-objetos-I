@@ -3,11 +3,18 @@
 */
 
 
+#include <iostream>
 #include "Media.h"
 
 using namespace std;
 
-Media::Media() {}
+Media::Media() {
+    this->grauA = 0;
+    this->grauB = 0;
+    this->grauC = 0;
+    this->media = 0;
+}
+
 Media::~Media() {}
 
 float Media::getGrauA() {
@@ -22,23 +29,36 @@ float Media::getGrauC() {
     return grauC;
 }
 
-float Media::getMedia() {
+double Media::getMedia() {
     return media;
 }
 
 void Media::setGrauA(float ga) {
     if(ga >= 0 && ga <= 10.0 ) grauA = ga;
-    else grauA = 0;
 }
 
 void Media::setGrauB(float gb) {
     if(gb >= 0 && gb <= 10.0 ) grauB = gb;
-    else grauB = 0;
 }
 
 void Media::calculaMedia() {
-     media = grauA * (1/3) + grauB * (2/3);
+     media = (grauA * 0.33) + (grauB * 0.67);
 }
+
+float Media::calculaNotaNecessariaGC() {
+    double recuperandoGA = (6.0 - (grauB * 0.67)) / 0.33;
+    double recuperandoGB = (6.0 - (grauA * 0.33)) / 0.67;
+
+    if(recuperandoGA > recuperandoGB) {
+        grauC = recuperandoGB;
+        cout << "Recuperando GB" << endl;
+    }
+    else {
+        grauC = recuperandoGA;
+        cout << "Recuperando GA" << endl;
+    }
+}
+
 
 
 

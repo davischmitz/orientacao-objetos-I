@@ -17,7 +17,7 @@ int main(void)
     float n[2];
     char operacao;
 
-    Calculadora calculadoraExemplo;
+    Calculadora calculadora;
 
     cout << "Digite o Operando 1: " << endl;
 
@@ -27,22 +27,22 @@ int main(void)
 
     cin >> n[1];
 
-    calculadoraExemplo.setOperando1(n[0]);
-    calculadoraExemplo.setOperando2(n[1]);
+    calculadora.setOperando1(n[0]);
+    calculadora.setOperando2(n[1]);
 
     cout << "Digite a Operação: [+ - * /]" << endl;
     cin >> operacao;
 
     if (operacao == '+')
-        calculadoraExemplo.soma();
+        calculadora.soma();
     if (operacao == '-')
-        calculadoraExemplo.subtrai();
+        calculadora.subtrai();
     if (operacao == '*')
-        calculadoraExemplo.multiplica();
+        calculadora.multiplica();
     if (operacao == '/')
-        calculadoraExemplo.divide();
+        calculadora.divide();
 
-    cout << "Resultado : " << calculadoraExemplo.getResultado() << endl;
+    cout << "Resultado : " << calculadora.getResultado() << endl;
 
     return 0;
 }

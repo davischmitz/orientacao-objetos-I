@@ -12,9 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a29607db-9605-4722-9443-47ce12172180" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mail.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Mail.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula2/Ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Ex1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula2/Ex1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Ex1/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula2/Ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Ex2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula2/Ex2/Media.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Ex2/Media.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula2/Ex2/Media.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Ex2/Media.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula2/Ex2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Ex2/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mail.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state relative-caret-position="180">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="e#37#56#0" expanded="true" />
               </folding>
@@ -95,7 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -121,6 +124,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Aula1/Aula1-Clion" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -156,15 +160,15 @@
       <workItem from="1553729831451" duration="4806000" />
       <workItem from="1553956805787" duration="10000" />
       <workItem from="1553956834555" duration="206000" />
-      <workItem from="1553957062372" duration="5416000" />
+      <workItem from="1553957062372" duration="6617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10796000" />
+    <option name="totallyTimeSpent" value="11997000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1041" extended-state="6" />
+    <frame x="0" y="-1" width="1920" height="1041" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20651014" />
@@ -226,8 +230,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mail.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        <state relative-caret-position="180">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
             <element signature="e#37#56#0" expanded="true" />
           </folding>

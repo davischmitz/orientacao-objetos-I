@@ -7,24 +7,29 @@
 
 
 class Media {
+
 private:
+
     float grauA;
     float grauB;
-    float grauC;
-    float media;
+    double grauC;
+    double media;
+
 public:
+
     Media();
     ~Media();
 
     float getGrauA();
     float getGrauB();
     float getGrauC();
-    float getMedia();
+    double getMedia();
 
     void setGrauA( float );
     void setGrauB( float );
 
     void calculaMedia();
+    float calculaNotaNecessariaGC();
 };
 
 
