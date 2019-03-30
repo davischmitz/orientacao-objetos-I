@@ -12,8 +12,8 @@ int main() {
     char corpo[50];
     int numeroDestinatarios = 0;
 
-    Contato remetente;
-    Contato destinatarios[10];
+//    Contato remetente, destinatarioA, destinatarioB, destinatarioC;
+    Contato remetente, destinatario;
     Mail mail;
 
     cout << "Digite o nome do remetente: " << endl;
@@ -24,25 +24,36 @@ int main() {
 
     remetente.setNome(nome);
     remetente.setEmail(email);
+    mail.setRemetente(remetente);
 
     cout << "Digite o numero de destinatarios: " << endl;
     cin >> numeroDestinatarios;
 
+    /*destinatarioA.setNome("Davi");
+    destinatarioA.setEmail("davi@davi.com");
+
+    destinatarioB.setNome("Mateus");
+    destinatarioB.setEmail("mateus@mateus.com");
+
+    destinatarioC.setNome("aline");
+    destinatarioC.setEmail("aline@aline.com");
+
+    mail.addDestinatario(destinatarioA);
+    mail.addDestinatario(destinatarioB);
+    mail.addDestinatario(destinatarioC);*/
+
     for(int i = 0; i < numeroDestinatarios; i++) {
+        nome[0] = '\0';
+        email[0] = '\0';
         cout << "Digite o nome do destinatario: " << endl;
         cin >> nome;
 
         cout << "Digite o email do destinatario: " << endl;
         cin >> email;
 
-        destinatarios[i].setEmail(nome);
-        destinatarios[i].setEmail(email);
-    }
-
-    mail.setRemetente(remetente);
-
-    for(int i = 0; i < numeroDestinatarios; i++) {
-        mail.addDestinatario(destinatarios[i]);
+        destinatario.setNome(nome);
+        destinatario.setEmail(email);
+        mail.addDestinatario(destinatario);
     }
 
     cout << "Digite o assunto do email: " << endl;
