@@ -8,28 +8,45 @@
 
 class Retangulo
 {
-    double x1;
-    double x2;
-    double x3;
-    double x4;
-    double y1;
-    double y2;
-    double y3;
-    double y4;
-    double comprimento;
-    double largura;
-    double perimetro;
-    double area;
+    int x1;
+    int x2;
+    int x3;
+    int x4;
+    int y1;
+    int y2;
+    int y3;
+    int y4;
+    float length;
+    float width;
+    float perimeter;
+    float area;
+    void setCoordinates(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4);
+    bool validateCoordinates(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4);
+    bool validatePoint(int x, int y);
+    bool validateRectangleX(int x1, int x2, int x3, int x4);
+    bool validateRectangleY(int y1, int y2, int y3, int y4);
 
 public:
     Retangulo();
-    Retangulo(double x1, double y1, double x2, double y2, double x3, double y3, double x4, double y4);
-    void setCoordinates(double x1, double y1, double x2, double y2, double x3, double y3, double x4, double y4);
-    bool validatePoint(double x, double y);
-    bool validateRectangle(double x1, double x2, double x3, double x4);
-    double calculatePerimeter()
-    ~Retangulo() {};
+    ~Retangulo();
+    Retangulo(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4);
 
+    void setPerimeter(float);
+    float getPerimeter();
+
+    void setLength(float);
+    float getLength();
+
+    void setWidth(float);
+    float getWidth();
+
+    void setArea(float);
+    float getArea();
+
+    void calculatePerimeter(Retangulo r);
+    void calculateLength(Retangulo r);
+    void calculateWidth(Retangulo r);
+    void calculateArea(Retangulo r);
 };
 
 

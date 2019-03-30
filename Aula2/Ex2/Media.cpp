@@ -25,7 +25,7 @@ float Media::getGrauB() {
     return grauB;
 }
 
-float Media::getGrauC() {
+double Media::getGrauC() {
     return grauC;
 }
 

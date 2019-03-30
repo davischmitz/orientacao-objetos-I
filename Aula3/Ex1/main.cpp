@@ -1,3 +1,11 @@
+/*
+ * Orientação a Objetos - I
+ *
+ * Davi Schmitz
+ *
+ * Ex. 1
+ */
+
 #include <iostream>
 #include "teste.h"
 

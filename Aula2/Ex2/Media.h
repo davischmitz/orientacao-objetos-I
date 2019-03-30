@@ -22,7 +22,7 @@ public:
 
     float getGrauA();
     float getGrauB();
-    float getGrauC();
+    double getGrauC();
     double getMedia();
 
     void setGrauA( float );

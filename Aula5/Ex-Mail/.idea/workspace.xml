@@ -13,11 +13,17 @@
   <component name="ChangeListManager">
     <list default="true" id="a29607db-9605-4722-9443-47ce12172180" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Aula2/Ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Ex1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula2/Ex1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Ex1/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Aula2/Ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Ex2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Aula2/Ex2/Media.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Ex2/Media.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Aula2/Ex2/Media.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Ex2/Media.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula2/Ex2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Ex2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex1/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex2/Retangulo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex2/Retangulo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex2/Retangulo.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex2/Retangulo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula3/exercicio1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/exercicio1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mail.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="255">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
                 <element signature="e#37#56#0" expanded="true" />
               </folding>
@@ -68,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mail.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="406">
               <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
             </state>
           </provider>
@@ -93,12 +99,12 @@
         <option value="$PROJECT_DIR$/Contato.h" />
         <option value="$PROJECT_DIR$/Contato.cpp" />
         <option value="$PROJECT_DIR$/Mail.h" />
-        <option value="$PROJECT_DIR$/Mail.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Mail.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -160,15 +166,15 @@
       <workItem from="1553729831451" duration="4806000" />
       <workItem from="1553956805787" duration="10000" />
       <workItem from="1553956834555" duration="206000" />
-      <workItem from="1553957062372" duration="6617000" />
+      <workItem from="1553957062372" duration="7865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11997000" />
+    <option name="totallyTimeSpent" value="13245000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1041" extended-state="7" />
+    <frame x="0" y="-1" width="1920" height="1041" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20651014" />
@@ -200,13 +206,6 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mail.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Contato.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -230,11 +229,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mail.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
             <element signature="e#37#56#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mail.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
         </state>
       </provider>
     </entry>

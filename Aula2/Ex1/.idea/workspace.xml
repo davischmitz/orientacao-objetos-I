@@ -11,14 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d86e4f12-19e3-4b6c-a9f8-174b135ed427" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ex2/Media.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex2/Media.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ex2/Media.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex2/Media.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Ex2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex2/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula5/Ex-Mail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula5/Ex-Mail/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d86e4f12-19e3-4b6c-a9f8-174b135ed427" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,12 +135,12 @@
       <workItem from="1551915358327" duration="3299000" />
       <workItem from="1552514012251" duration="2301000" />
       <workItem from="1553118896604" duration="3242000" />
-      <workItem from="1553964479412" duration="3653000" />
+      <workItem from="1553964479412" duration="3676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18548000" />
+    <option name="totallyTimeSpent" value="18571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1041" extended-state="6" />
@@ -158,7 +151,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31243002" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31243002" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
