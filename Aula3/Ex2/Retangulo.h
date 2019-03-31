@@ -47,6 +47,7 @@ public:
     void calculateLength(Retangulo r);
     void calculateWidth(Retangulo r);
     void calculateArea(Retangulo r);
+    bool isSquare(Retangulo r);
 };
 
 

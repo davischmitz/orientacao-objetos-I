@@ -95,3 +95,7 @@ void Retangulo::calculatePerimeter(Retangulo r) {
 void Retangulo::calculateArea(Retangulo r) {
     setArea(r.length * r.width);
 }
+
+bool Retangulo::isSquare(Retangulo r) {
+    return r.length == r.width;
+}

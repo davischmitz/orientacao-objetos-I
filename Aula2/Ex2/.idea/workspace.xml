@@ -12,17 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="451ecef9-53f2-41b4-ad6a-dceacbefd609" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Media.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Media.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Media.h" beforeDir="false" afterPath="$PROJECT_DIR$/Media.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex1/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Aula3/Ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex2/Retangulo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex2/Retangulo.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex2/Retangulo.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex2/Retangulo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex2/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula3/exercicio1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/exercicio1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula4/Ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula4/Ex1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula4/Ex1/Motor.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula4/Ex1/Motor.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Aula5/Ex-Mail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula5/Ex-Mail/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -171,7 +163,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42665175" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42665175" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

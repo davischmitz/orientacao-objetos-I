@@ -6,23 +6,24 @@
 #define EX1_MOTOR_H
 
 
-class Motor
-{
+class Motor {
 
 private:
+
     int numCilindro;
     int potencia;
 
 public:
-    ~Motor();
-    Motor();
-    Motor(int nc, int p);
 
-    int getNumCilindro();
-    int getPotencia();
+    Motor();
+    Motor(int, int);
+    ~Motor();
 
     void setNumCilindro( int );
+    int getNumCilindro();
+
     void setPotencia( int );
+    int getPotencia();
 };
 
 

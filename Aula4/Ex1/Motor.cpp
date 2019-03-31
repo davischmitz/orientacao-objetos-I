@@ -6,17 +6,31 @@
 
 using namespace std;
 
-Motor::~Motor() {}
-
-Motor::Motor()
-{
+Motor::Motor() {
     numCilindro = 0;
     potencia = 0;
 }
 
-Motor::Motor(int nc, int p)
-{
-    numCilindro = nc;
-    potencia = p;
+Motor::Motor(int numCilindro, int potencia) {
+    this-> numCilindro = numCilindro;
+    this-> potencia = potencia;
+}
+
+Motor::~Motor() {}
+
+void Motor::setNumCilindro(int numCilindro) {
+   this-> numCilindro = numCilindro;
+}
+
+int Motor::getNumCilindro() {
+    return numCilindro;
+}
+
+void Motor::setPotencia(int potencia) {
+    this-> potencia = potencia;
+}
+
+int Motor::getPotencia() {
+    return potencia;
 }
 
