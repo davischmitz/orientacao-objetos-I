@@ -8,6 +8,26 @@
 
 class Cliente {
 
+private:
+
+    char* nome;
+    char* cpf;
+    char* endereco;
+
+
+public:
+
+    Cliente();
+    ~Cliente();
+
+    void setNome( char* );
+    char* getNome();
+
+    void setCpf( char* );
+    char* getCpf();
+
+    void setEndereco( char* );
+    char* getEndereco();
 };
 
 

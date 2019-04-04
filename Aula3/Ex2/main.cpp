@@ -13,8 +13,7 @@
 using namespace std;
 
 string handleShape(Retangulo r) {
-    if(r.isSquare(r)) return "formam";
-    else return "não formam";
+    return (r.isSquare(r) ? "formam" : "não formam");
 }
 
 int main() {

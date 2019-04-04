@@ -8,6 +8,21 @@
 
 class Vendedor {
 
+private:
+
+    char* nome;
+    int codigo;
+
+public:
+
+    Vendedor();
+    ~Vendedor();
+
+    void setNome( char* );
+    char* getNome();
+
+    void setCodigo( int );
+    int getCodigo();
 };
 
 
