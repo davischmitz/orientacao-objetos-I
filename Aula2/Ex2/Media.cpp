@@ -1,8 +1,3 @@
-/*
- * Created by davi on 3/6/19.
-*/
-
-
 #include <iostream>
 #include "Media.h"
 

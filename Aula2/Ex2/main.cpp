@@ -1,7 +1,7 @@
 /*
  * Orientação a Objetos - I
  *
- * Davi Schmitz
+ * Davi Schmitz / Aline Nunes
  *
  * Ex. 2
  */

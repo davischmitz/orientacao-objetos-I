@@ -1,7 +1,3 @@
-/*
- * Created by davi on 3/6/19.
-*/
-
 #ifndef EX2_MEDIA_H
 #define EX2_MEDIA_H
 
