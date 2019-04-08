@@ -18,6 +18,7 @@ private:
 public:
 
     Cliente();
+    Cliente(char*, char*, char*);
     ~Cliente();
 
     void setNome( char* );

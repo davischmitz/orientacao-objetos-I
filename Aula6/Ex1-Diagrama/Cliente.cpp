@@ -10,6 +10,12 @@ Cliente::Cliente() {
     this-> endereco = nullptr;
 }
 
+Cliente::Cliente(char * nome, char * cpf, char * endereco) {
+    this-> nome = nome;
+    this-> cpf = cpf;
+    this-> endereco = endereco;
+}
+
 Cliente::~Cliente() {}
 
 void Cliente::setNome(char *nome) {
@@ -35,3 +41,4 @@ void Cliente::setEndereco(char *endereco) {
 char* Cliente::getEndereco() {
     return endereco;
 }
+

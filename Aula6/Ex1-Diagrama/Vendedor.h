@@ -16,6 +16,7 @@ private:
 public:
 
     Vendedor();
+    Vendedor(char*, int);
     ~Vendedor();
 
     void setNome( char* );

@@ -8,6 +8,22 @@
 
 class Produto {
 
+private:
+
+    char* descricao;
+    double preco;
+
+public:
+
+    Produto();
+    Produto(char*, double);
+    ~Produto();
+
+    void setDescricao( char * );
+    char* getDecricao();
+
+    void setPreco( double);
+    double getPreco();
 };
 
 

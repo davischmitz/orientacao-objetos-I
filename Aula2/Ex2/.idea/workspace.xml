@@ -12,15 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="451ecef9-53f2-41b4-ad6a-dceacbefd609" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula3/Ex2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula3/Ex2/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula4/Ex1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula4/Ex1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Aula5/Ex-Mail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula5/Ex-Mail/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Cliente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Cliente.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Cliente.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Cliente.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/ItemVendido.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/ItemVendido.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/ItemVendido.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/ItemVendido.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/NotaFiscal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/NotaFiscal.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/NotaFiscal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/NotaFiscal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Produto.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Produto.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Produto.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Produto.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Vendedor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Vendedor.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Vendedor.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Vendedor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="225">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -53,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Media.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
+            <state>
               <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
@@ -62,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Media.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="630">
               <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
               <folding>
                 <element signature="e#38#57#0" expanded="true" />
@@ -95,7 +100,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,11 +111,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Aula4/Ex1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -151,16 +156,18 @@
       <workItem from="1553724627275" duration="5384000" />
       <workItem from="1553969759425" duration="6987000" />
       <workItem from="1554328496585" duration="2541000" />
+      <workItem from="1554755534636" duration="668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24772000" />
+    <option name="totallyTimeSpent" value="25440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1041" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26627535" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26947704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -193,9 +200,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Media.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Media.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="630">
           <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding>
             <element signature="e#38#57#0" expanded="true" />
@@ -203,17 +217,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Media.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="225">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
