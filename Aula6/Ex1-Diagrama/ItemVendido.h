@@ -25,7 +25,7 @@ public:
     void setQuantidade( int );
     int getQuantidade();
 
-    void setPrecoTotal( double );
+    void calculaPrecoTotal();
     double getPrecoTotal();
 
     void setProduto( Produto );

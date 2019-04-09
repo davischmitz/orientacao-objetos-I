@@ -17,9 +17,9 @@ NotaFiscal::~NotaFiscal() {}
 void NotaFiscal::calculaValorTotal() {
     double total = 0;
     for (int i = 0; i < 10; i++) {
+        itensVendidos[i].calculaPrecoTotal();
         total += itensVendidos[i].getPrecoTotal();
     }
-    cout << "total" << total;
     this-> valorTotal = total;
 }
 

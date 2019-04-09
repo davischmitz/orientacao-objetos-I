@@ -25,8 +25,8 @@ int ItemVendido::getQuantidade() {
     return quantidade;
 }
 
-void ItemVendido::setPrecoTotal(double precoTotal) {
-    this-> precoTotal = precoTotal;
+void ItemVendido::calculaPrecoTotal() {
+    this-> precoTotal = quantidade * produto.getPreco();
 }
 
 double ItemVendido::getPrecoTotal() {
