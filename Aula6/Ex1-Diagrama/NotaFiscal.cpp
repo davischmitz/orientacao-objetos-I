@@ -1,7 +1,3 @@
-//
-// Created by davi on 4/3/19.
-//
-
 #include <iostream>
 #include "NotaFiscal.h"
 
@@ -10,6 +6,7 @@ using namespace std;
 NotaFiscal::NotaFiscal() {
     this-> valorTotal = 0;
     this-> pos = 0;
+    this->produtosVendidos = 0;
 }
 
 NotaFiscal::~NotaFiscal() {}
@@ -46,9 +43,18 @@ Cliente NotaFiscal::getCliente() {
 void NotaFiscal::setItemVendido(ItemVendido itemVendido) {
     if(pos < 10) {
         itensVendidos[pos++] = itemVendido;
+        this->incrementarProdutosVendidos();
     }
 }
 
 ItemVendido NotaFiscal::getItemVendido(int index) {
     return itensVendidos[index];
+}
+
+void NotaFiscal::incrementarProdutosVendidos() {
+    produtosVendidos++;
+}
+
+int NotaFiscal::getQuantidadeProdutosVendidos() {
+    return produtosVendidos;
 }

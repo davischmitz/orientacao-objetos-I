@@ -11,22 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a29607db-9605-4722-9443-47ce12172180" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Aula2/Ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula2/Ex2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Cliente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Cliente.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Cliente.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Cliente.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/ItemVendido.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/ItemVendido.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/ItemVendido.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/ItemVendido.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/NotaFiscal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/NotaFiscal.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/NotaFiscal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/NotaFiscal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Produto.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Produto.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Produto.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Produto.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Vendedor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Vendedor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Vendedor.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Vendedor.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="a29607db-9605-4722-9443-47ce12172180" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

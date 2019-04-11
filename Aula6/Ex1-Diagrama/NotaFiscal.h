@@ -1,7 +1,3 @@
-//
-// Created by davi on 4/3/19.
-//
-
 #ifndef EX1_DIAGRAMA_NOTAFISCAL_H
 #define EX1_DIAGRAMA_NOTAFISCAL_H
 
@@ -14,6 +10,7 @@ class NotaFiscal {
 
 private:
 
+    int produtosVendidos;
     double valorTotal;
     Cliente cliente;
     Vendedor vendedor;
@@ -24,6 +21,9 @@ public:
 
     NotaFiscal();
     ~NotaFiscal();
+
+    void incrementarProdutosVendidos();
+    int getQuantidadeProdutosVendidos();
 
     void calculaValorTotal();
     double getValorTotal();

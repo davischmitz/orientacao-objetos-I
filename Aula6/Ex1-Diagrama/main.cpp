@@ -9,69 +9,119 @@ using namespace std;
 int main() {
 
     int nProduto;
+    int nVendedor;
+    int nCliente;
     int nQuantidade;
+    char fim = 'n';
 
     Produto bolacha("Bolacha", 5), cereal("Cereal", 3), chocolate("Chocolate", 6), carne("Carne", 20), fruta("Fruta", 5);
     Cliente davi, aline;
-    Vendedor mateus("Mateus", 1), joao("Joao", 2);
+    Vendedor mateus("Mateus", 1), julio("julio", 2);
+    NotaFiscal notaFiscal;
+    ItemVendido itemVendido;
 
     davi.setNome("Davi");
-    davi.setCpf("04001802007");
+    davi.setCpf("14991892117");
     davi.setEndereco("Gomes Jardim");
 
     aline.setNome("Aline");
     aline.setCpf("783746597867");
-    aline.setEndereco("Rua Joaquim Nabuco");
+    aline.setEndereco("Rua Carlos Scherer");
 
-    NotaFiscal notaFiscal;
-    ItemVendido itemVendido;
+    cout << "Escolha o cliente cadastrado: " << endl;
+    cout << "1 - " << davi.getNome() << endl;
+    cout << "2 - " << aline.getNome() << endl;
+    cin >> nCliente;
 
-    notaFiscal.setCliente(davi);
-    notaFiscal.setVendedor(mateus);
-
-    /*itemVendido.setProduto(bolacha);
-    itemVendido.setQuantidade(1);
-
-    notaFiscal.setItemVendido(itemVendido);
-    notaFiscal.calculaValorTotal();*/
-
-    cout << "Digite o numero correspondendo ao produto que deseja comprar:" << endl;
-    cin >> nProduto;
-
-    switch(nProduto) {
-        case 1:
-            itemVendido.setProduto(bolacha);
+    switch(nCliente) {
+        case 1 :
+            notaFiscal.setCliente(davi);
             break;
         case 2:
-            itemVendido.setProduto(cereal);
-            break;
-        case 3:
-            itemVendido.setProduto(chocolate);
-            break;
-        case 4:
-            itemVendido.setProduto(carne);
-            break;
-        case 5:
-            itemVendido.setProduto(fruta);
-            break;
+            notaFiscal.setCliente(aline);
         default:
-            cout << "Produto nao encontrado!" << endl;
-            break;
-
+            "Cliente não encontrado";
     }
 
-    cout << "Digite a quantidade: " << endl;
-    cin >> nQuantidade;
+    cout << "Escolha o vendedor cadastrado: " << endl;
+    cout << "1 - " << mateus.getNome() << endl;
+    cout << "2 - " << julio.getNome() << endl;
+    cin >> nVendedor;
 
-    itemVendido.setQuantidade(nQuantidade);
-    notaFiscal.setItemVendido(itemVendido);
+    switch(nVendedor) {
+        case 1 :
+            notaFiscal.setVendedor(mateus);
+            break;
+        case 2:
+            notaFiscal.setVendedor(julio);
+        default:
+            "Vendedor não encontrado";
+    }
+
+    while(fim != 's') {
+
+        cout << "Digite o numero correspondendo ao produto que deseja comprar:" << endl;
+        cout << "1 - " << bolacha.getDecricao() << endl;
+        cout << "2 - " << cereal.getDecricao() << endl;
+        cout << "3 - " << chocolate.getDecricao() << endl;
+        cout << "4 - " << carne.getDecricao() << endl;
+        cout << "5 - " << fruta.getDecricao() << endl;
+
+        cin >> nProduto;
+
+        switch (nProduto) {
+            case 1:
+                itemVendido.setProduto(bolacha);
+                break;
+            case 2:
+                itemVendido.setProduto(cereal);
+                break;
+            case 3:
+                itemVendido.setProduto(chocolate);
+                break;
+            case 4:
+                itemVendido.setProduto(carne);
+                break;
+            case 5:
+                itemVendido.setProduto(fruta);
+                break;
+            default:
+                cout << "Produto nao encontrado!" << endl;
+                break;
+
+        }
+
+        cout << "Digite a quantidade: " << endl;
+        cin >> nQuantidade;
+
+        itemVendido.setQuantidade(nQuantidade);
+        itemVendido.calculaPrecoTotal();
+        notaFiscal.setItemVendido(itemVendido);
+        cout << "Para finalizar a compra degite 's', senao, digite 'c' " << endl;
+        cin >> fim;
+    }
+
     notaFiscal.calculaValorTotal();
 
+    cout << "-----------------------------------------" << endl;
     cout << "\nNOTA FISCAL:\n" << endl;
+    cout << "-----------------------------------------" << endl;
     cout << "Cliente: " << notaFiscal.getCliente().getNome() << endl;
+    cout << "CPF: " << notaFiscal.getCliente().getCpf() << endl;
+    cout << "Endereco: " << notaFiscal.getCliente().getEndereco() << endl;
+    cout << "-----------------------------------------" << endl;
     cout << "Vendedor: " << notaFiscal.getVendedor().getNome() << endl;
-    cout << "Itens Vendidos: " << notaFiscal.getItemVendido(0).getProduto().getDecricao() << endl;
-    cout << "Valor Total da nota fiscal: " << notaFiscal.getValorTotal() << endl;
+    cout << "Codigo: " << notaFiscal.getVendedor().getCodigo() << endl;
+    cout << "-----------------------------------------" << endl;
+    cout << "Itens Vendidos: "<< endl;
+    char * descricao;
+    for (int i = 0; i < notaFiscal.getQuantidadeProdutosVendidos(); i++) {
+         descricao = notaFiscal.getItemVendido(i).getProduto().getDecricao();
+            cout << "Descricao: - ( x" << notaFiscal.getItemVendido(i).getQuantidade() << " ) " << notaFiscal.getItemVendido(i).getProduto().getDecricao() << " ( R$ " << notaFiscal.getItemVendido(i).getProduto().getPreco() << " ) p/unidade" <<endl;
+    }
+    cout << "-----------------------------------------" << endl;
+    cout << "Valor Total da nota fiscal: R$ " << notaFiscal.getValorTotal() << endl;
+    cout << "-----------------------------------------" << endl;
 
     return 0;
 }

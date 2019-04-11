@@ -1,7 +1,3 @@
-//
-// Created by davi on 4/3/19.
-//
-
 #include "ItemVendido.h"
 
 ItemVendido::ItemVendido() {
@@ -25,10 +21,6 @@ int ItemVendido::getQuantidade() {
     return quantidade;
 }
 
-void ItemVendido::calculaPrecoTotal() {
-    this-> precoTotal = quantidade * produto.getPreco();
-}
-
 double ItemVendido::getPrecoTotal() {
     return precoTotal;
 }
@@ -39,4 +31,8 @@ void ItemVendido::setProduto(Produto produto) {
 
 Produto ItemVendido::getProduto() {
     return produto;
+}
+
+void ItemVendido::calculaPrecoTotal() {
+    this-> precoTotal = quantidade * produto.getPreco();
 }

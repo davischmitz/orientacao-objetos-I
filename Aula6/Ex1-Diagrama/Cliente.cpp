@@ -1,13 +1,9 @@
-//
-// Created by davi on 4/3/19.
-//
-
 #include "Cliente.h"
 
 Cliente::Cliente() {
-    this-> nome = nullptr;
-    this-> cpf = nullptr;
-    this-> endereco = nullptr;
+    this-> nome = "";
+    this-> cpf = "";
+    this-> endereco = "";
 }
 
 Cliente::Cliente(char * nome, char * cpf, char * endereco) {
