@@ -13,19 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="451ecef9-53f2-41b4-ad6a-dceacbefd609" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula5/Ex-Mail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula5/Ex-Mail/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Cliente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Cliente.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Cliente.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Cliente.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/ItemVendido.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/ItemVendido.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/ItemVendido.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/ItemVendido.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/NotaFiscal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/NotaFiscal.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/NotaFiscal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/NotaFiscal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Produto.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Produto.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Produto.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Produto.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Vendedor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Vendedor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Vendedor.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/Vendedor.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula6/Ex1-Diagrama/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="135">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -64,14 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Media.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="615">
               <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-              <folding>
-                <element signature="e#38#57#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -90,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -158,18 +143,18 @@
       <workItem from="1554328496585" duration="2541000" />
       <workItem from="1554755534636" duration="668000" />
       <workItem from="1554762235342" duration="612000" />
-      <workItem from="1554932120824" duration="616000" />
+      <workItem from="1554932120824" duration="1215000" />
+      <workItem from="1556065626812" duration="1032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26668000" />
+    <option name="totallyTimeSpent" value="28299000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1041" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="-1" width="1920" height="1041" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27588046" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27908218" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -195,13 +180,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Media.h">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -209,20 +187,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Media.cpp">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Media.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
         </state>
       </provider>
     </entry>

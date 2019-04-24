@@ -14,5 +14,9 @@ int main() {
         b[i] = new Box();
     }
 
+    for (int i = 0; i < nObjetos; i++) {
+        delete b[i];
+    }
+
     return 0;
 }
