@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1556151286 source:c:\users\dschmitz1\downloads\prova_ga\main.cpp
+	<iostream>
+	"Poupanca.h"
+	"ContaCorrente.h"
+
+1556150763 source:c:\users\dschmitz1\downloads\prova_ga\src\contacorrente.cpp
+	<iostream>
+	"ContaCorrente.h"
+
+1556149896 c:\users\dschmitz1\downloads\prova_ga\include\contacorrente.h
+	"Conta.h"
+
+1556150763 source:c:\users\dschmitz1\downloads\prova_ga\src\poupanca.cpp
+	"Poupanca.h"
+
+1556149896 c:\users\dschmitz1\downloads\prova_ga\include\poupanca.h
+	"Conta.h"
+
+1556150972 source:c:\users\dschmitz1\downloads\prova_ga\src\conta.cpp
+	<iostream>
+	"Conta.h"
+
+1556149896 c:\users\dschmitz1\downloads\prova_ga\include\conta.h
+
