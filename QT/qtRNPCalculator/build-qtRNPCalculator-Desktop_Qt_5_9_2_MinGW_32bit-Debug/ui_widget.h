@@ -45,7 +45,6 @@ public:
     QPushButton *btn_divide;
     QPushButton *btn_delete;
     QPushButton *btn_rol;
-    QPushButton *btn_enter;
 
     void setupUi(QWidget *Widget)
     {
@@ -108,16 +107,13 @@ public:
         btn_down->setGeometry(QRect(150, 310, 61, 41));
         btn_divide = new QPushButton(Widget);
         btn_divide->setObjectName(QStringLiteral("btn_divide"));
-        btn_divide->setGeometry(QRect(220, 310, 61, 41));
+        btn_divide->setGeometry(QRect(210, 360, 61, 41));
         btn_delete = new QPushButton(Widget);
         btn_delete->setObjectName(QStringLiteral("btn_delete"));
         btn_delete->setGeometry(QRect(10, 360, 61, 41));
         btn_rol = new QPushButton(Widget);
         btn_rol->setObjectName(QStringLiteral("btn_rol"));
         btn_rol->setGeometry(QRect(80, 360, 61, 41));
-        btn_enter = new QPushButton(Widget);
-        btn_enter->setObjectName(QStringLiteral("btn_enter"));
-        btn_enter->setGeometry(QRect(150, 360, 131, 41));
 
         retranslateUi(Widget);
 
@@ -140,13 +136,12 @@ public:
         btn_eigth->setText(QApplication::translate("Widget", "8", Q_NULLPTR));
         btn_nine->setText(QApplication::translate("Widget", "9", Q_NULLPTR));
         btn_multiply->setText(QApplication::translate("Widget", "*", Q_NULLPTR));
-        btn_up->setText(QApplication::translate("Widget", "Up", Q_NULLPTR));
+        btn_up->setText(QApplication::translate("Widget", "^", Q_NULLPTR));
         btn_zero->setText(QApplication::translate("Widget", "0", Q_NULLPTR));
-        btn_down->setText(QApplication::translate("Widget", "Down", Q_NULLPTR));
+        btn_down->setText(QApplication::translate("Widget", "~", Q_NULLPTR));
         btn_divide->setText(QApplication::translate("Widget", "/", Q_NULLPTR));
         btn_delete->setText(QApplication::translate("Widget", "Del", Q_NULLPTR));
         btn_rol->setText(QApplication::translate("Widget", "Rol", Q_NULLPTR));
-        btn_enter->setText(QApplication::translate("Widget", "Enter", Q_NULLPTR));
     } // retranslateUi
 
 };

@@ -212,7 +212,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>^</string>
+    <string>Up</string>
    </property>
   </widget>
   <widget class="QPushButton" name="btn_zero">
@@ -238,7 +238,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>~</string>
+    <string>Down</string>
    </property>
   </widget>
   <widget class="QPushButton" name="btn_divide">

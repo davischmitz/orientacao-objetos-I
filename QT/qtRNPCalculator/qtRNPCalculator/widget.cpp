@@ -134,12 +134,14 @@ void Widget::on_btn_delete_clicked()
 
 void Widget::on_btn_up_clicked()
 {
-    ui->textEdit_stack->verticalScrollBar()->scroll(0, 10);
+    int currentScrollValue = ui->textEdit_stack->verticalScrollBar()->value();
+    ui->textEdit_stack->verticalScrollBar()->setValue(currentScrollValue - 10);
 }
 
 void Widget::on_btn_down_clicked()
 {
-    ui->textEdit_stack->verticalScrollBar()->scroll(0, 100);
+    int currentScrollValue = ui->textEdit_stack->verticalScrollBar()->value();
+    ui->textEdit_stack->verticalScrollBar()->setValue(currentScrollValue + 10);
 }
 
 void Widget::on_btn_enter_clicked()
